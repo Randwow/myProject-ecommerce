@@ -1,0 +1,29 @@
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 500px;
+
+    iframe {
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+}
+
+.contact-section {
+    .contact {
+        border-radius: 0 .25rem .25rem 0;
+    }    
+
+    .form {
+        .btn-floating {
+            float: right;
+    position: relative;
+    bottom: 3rem;
+    margin-right: 0;
+        }
+    }
+}

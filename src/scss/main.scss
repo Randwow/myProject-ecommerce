@@ -1,0 +1,16 @@
+// FontAwesome 4.7.x
+$fa-font-path: '~font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome.scss';
+
+// Bootstrap 4
+@import '~bootstrap/scss/bootstrap';
+
+@import './nav';
+@import './contact-us';
+
+// PDP
+@import './pdp';
+
+// components
+@import './components/checkbox';
+@import './components/pdp-viewer';

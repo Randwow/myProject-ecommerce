@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb-base",
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "jquery": true
+    },
+    "rules": {
+      "linebreak-style":"off",
+      "import/no-unresolved": "off"
+    }
+  }

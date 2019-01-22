@@ -1,0 +1,13 @@
+.navbar-nav {
+    &.navbar-nav-sm {
+        flex-direction: row;
+
+        .form-control {
+            width: 100px;
+
+            @include media-breakpoint-up(md) {
+                width: auto;
+            }
+        }
+    }
+}
