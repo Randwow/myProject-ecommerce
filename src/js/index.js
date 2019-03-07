@@ -7,6 +7,9 @@ import 'popper.js';
 // Bootstrap 4
 import 'bootstrap';
 
+// Polifill to picture tag
+import 'picturefill';
+
 // Material Design Bootstrap
 import '../vendors/mdb/js/mdb';
 
