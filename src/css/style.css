@@ -1,5 +1,14 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box ;
+}
+@media screen and (max-width: 992px) {
+    .hid{
+      visibility: hidden;
+      display: none;
+    }
+  }
+.carousel{
+    height: 750px;
 }
 .logo{
     width: 100px;
@@ -31,9 +40,12 @@ a:active {
 .jc{
     justify-content: center;
 }
-@media screen and (max-width: 992px) {
-    .hid{
-      visibility: hidden;
-      display: none;
-    }
-  }
+.zi{
+    z-index: 1000;
+}
+nav{
+    position: fixed !important;  
+    top: 0;  
+    z-index: 1000 !important;  
+    width: 100%; 
+}

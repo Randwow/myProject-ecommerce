@@ -84,14 +84,14 @@ module.exports = {
       Waves: 'node-waves',
     }),
     new HtmlWebpackPlugin({
+      template: 'src/main.html',
+      inject: 'body',
+      filename: 'main.html  ',
+    }),
+    new HtmlWebpackPlugin({
       template: 'src/index.html',
       inject: 'body',
       filename: 'index.html',
-    }),
-    new HtmlWebpackPlugin({
-      template: 'src/pdp.html',
-      inject: 'body',
-      filename: 'pdp.html',
     }),
     new HtmlWebpackPlugin({
       template: 'src/contact-us.html',
